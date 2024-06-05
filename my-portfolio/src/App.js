@@ -1,9 +1,15 @@
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
+import SocialLinks from "./components/SocialLinks";
 
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-4xl font-bold">hello</h1>
+    <div className="">
+      <NavBar />
+      <Home />
+
+      <SocialLinks />
     </div>
   );
 }
